@@ -1,0 +1,2 @@
+The script executes the portfolio VaR calculations for the given portfolio prices and weights using the defined functions. It calculates and visualizes the correlation matrix of portfolio returns. The script also checks if the calculated VaR values exceed a specified threshold and raises warnings if they do.
+The script then prints the calculated portfolio VaR values (historical, parametric, and Monte Carlo) along with warnings regarding threshold breaches. It saves the correlation matrix as a CSV file and calculates and saves incremental VaRs for each asset in the portfolio.

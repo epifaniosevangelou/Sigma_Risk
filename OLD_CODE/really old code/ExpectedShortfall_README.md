@@ -1,0 +1,1 @@
+# This code calculates the Value at Risk (VaR) and Expected Shortfall (ES) for a portfolio of assets using Monte Carlo simulation. It generates random samples of returns for the assets, calculates portfolio returns, and then determines the VaR and ES at a specified confidence level, printing the results.

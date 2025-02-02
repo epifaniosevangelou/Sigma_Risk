@@ -1,0 +1,1 @@
+# This code defines two functions, sharpe_ratio and sortino_ratio, to calculate financial performance metrics: the Sharpe Ratio and Sortino Ratio, respectively, using provided return data and an optional benchmark return value.

@@ -1,0 +1,1 @@
+This code calculates historical and parametric VaR given a set input (in this case a CSV file), as well as calculates VaR using a montecarlo simulation. it then proceeds to give risk warnings based on pre-set thresholds. 

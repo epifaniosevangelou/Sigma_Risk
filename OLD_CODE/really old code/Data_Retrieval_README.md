@@ -1,0 +1,1 @@
+# This code defines a function that uses the Pandas DataReader library to fetch and return the adjusted closing prices of a list of specified stock tickers within a specified date range from a specified data source.

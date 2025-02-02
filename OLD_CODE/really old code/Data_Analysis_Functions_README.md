@@ -1,0 +1,1 @@
+# This code defines functions to calculate financial returns, including arithmetic and logarithmic returns for individual stocks, as well as portfolio logarithmic returns based on specified weights.
