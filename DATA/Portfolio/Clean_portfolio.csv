@@ -1,0 +1,34 @@
+Ticker;Industry;Weight_Portfolio
+AD.AS;Consumer Goods;0.0277
+HEIA.AS;Consumer Goods;0.0221
+PM;Consumer Goods;0.0633
+ALV.DE;Financial Services;0.0256
+BRK-B;Financial Services;0.009
+SPGI;Financial Services;0.0524
+KKR;Financial Services;0.0421
+CME;Financial Services;0.0219
+LSEG.L;Financial Services;0.0473
+EQIX;Real Estate;0.0527
+AED.BR;Real Estate;0.0261
+MDT;Healthcare;0.0182
+BAYN.DE;Healthcare;0.0133
+UNH;Healthcare;0.012
+LH;Healthcare;0.0357
+VRTX;Healthcare;0.0196
+IDXX;Healthcare;0.0101
+NOVO-B.CO;Healthcare;0.033
+HCA;Healthcare;0.0478
+DHL.DE;Industrials;0.008
+CMI;Industrials;0.0183
+EOAN.DE;Industrials;0.0303
+CRH.L;Industrials;0.0176
+APD;Industrials;0.0287
+DTE.DE;Technology, Media and Telecom;0.0186
+ASML.AS;Technology, Media and Telecom;0.0328
+NFLX;Technology, Media and Telecom;0.0422
+SAP.DE;Technology, Media and Telecom;0.018
+0992.HK;Technology, Media and Telecom;0.0477
+SONY;Technology, Media and Telecom;0.0188
+META;Technology, Media and Telecom;0.0529
+DELL;Technology, Media and Telecom;0.0438
+EMSM.L;ETFs;0.0268
