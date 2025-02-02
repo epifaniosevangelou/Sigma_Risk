@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn
+yfinance
+cvxpy
+pybind11
+riskfolio-lib
+PyPortfolioOpt
+seaborn
+jupyter
+ipykernel
+wheel
+copulae
