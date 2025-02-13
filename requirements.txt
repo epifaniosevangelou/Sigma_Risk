@@ -3,10 +3,10 @@ pandas
 scipy
 matplotlib
 scikit-learn
-yfinance
+yfinance==0.2.43
 cvxpy
 pybind11
-riskfolio-lib
+Riskfolio-Lib==6.2.3
 PyPortfolioOpt
 seaborn
 jupyter
