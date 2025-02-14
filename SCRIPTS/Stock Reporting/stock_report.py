@@ -1,27 +1,21 @@
 import numpy as np
 import pandas as pd
 import yfinance as yf
-import warnings
 import matplotlib.pyplot as plt
 import riskfolio as rp
 from scipy.stats import norm
 import os
 
-warnings.filterwarnings("ignore")
-pd.options.display.float_format = '{:.4%}'.format
-
-
-# Inputs
 
 # Confidence level in %
 confidence_level = 0.05
 
 # Date range
-start_date = '2023-11-08'
-end_date = '2024-11-08'
+start_date = '2024-02-13'
+end_date = '2025-02-13'
 
 # Tickers of assets
-tickers = ['FIDU', 'VHT']
+tickers = ['AZN']
 tickers.sort()
 
 # Risk free rate
@@ -35,21 +29,21 @@ base_output_dir = "outputs/Reporting/Stock Reporting"
 for ticker in tickers:
     # Fetch historical stock data
     stock_data = yf.download(ticker, start=start_date, end=end_date)
-
+    stock_data
     base_ticker = ticker.split('.')[0]
 
     # Calculate Arithmetic returns
     Y = stock_data['Adj Close'].pct_change().dropna()
 
     # Convert returns Series to DataFrame
-    Y = pd.DataFrame(Y) 
+    Y = pd.DataFrame(Y)
     Y.rename(columns={'Adj Close': ticker}, inplace=True) # Set ticker as column name
     #display(Y.head())
-
+    
     # Define weights as DataFrame
-    w = pd.DataFrame(data=[[1.0]], columns=[ticker], index=[0]).T 
+    w = pd.DataFrame(data=[[1.0]], columns=[ticker], index=[0]).T
     #display(w.T)
-
+    
     # Create a subdirectory for each ticker
     ticker_output_dir = os.path.join(base_output_dir, ticker)
     os.makedirs(ticker_output_dir, exist_ok=True)
